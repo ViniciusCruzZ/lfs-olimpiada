@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+:root {
+    --gold-color: #F4CA3F;
+    --silver-color: #D4D3D1;
+    --bronze-color: #9E6912;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    width: 800px;
+}
+
+.medal-bar {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #929292;
+}
+
+.medal {
+    padding: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gold {
+    background-color: var(--gold-color);
+}
+
+.silver {
+    background-color: var(--silver-color);
+}
+
+.bronze {
+    background-color: var(--bronze-color);
+    color: #ffffff;
+}
+
+.all {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 25px auto;
+    align-items: center;
+}
+
+.team > * {
+    text-align: left;
+}
+
+.logo {
+    width: 50px !important;
+    border-radius: 50%;
+}
+
+.medals {
+    display: flex;
+    gap: 10px;
+}
