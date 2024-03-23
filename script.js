@@ -32,9 +32,9 @@ const teams = [
     {
         img: "./images/dtroup.jpeg",
         teamName: "D-TROUP",
-        gold: 1,
-        silver: 1,
-        bronze: 0
+        gold: 2,
+        silver: 2,
+        bronze: 1
     }
 ];
 
