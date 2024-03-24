@@ -12,13 +12,13 @@ const teams = [
         img: "./images/logo-primos.jpeg",
         teamName: "PRIMOS",
         gold: 1,
-        silver: 0,
+        silver: 1,
         bronze: 2
     },
     {
         img: "./images/lanche.jpeg",
         teamName: "Clube do Lanche",
-        gold: 0,
+        gold: 1,
         silver: 1,
         bronze: 0
     },
