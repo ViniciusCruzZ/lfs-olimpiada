@@ -13,7 +13,7 @@ const teams = [
         teamName: "PRIMOS",
         gold: 2,
         silver: 1,
-        bronze: 2
+        bronze: 3
     },
     {
         img: "./images/lanche.jpeg",
