@@ -11,8 +11,8 @@ const teams = [
     {
         img: "./images/logo-primos.jpeg",
         teamName: "PRIMOS",
-        gold: 2,
-        silver: 1,
+        gold: 3,
+        silver: 2,
         bronze: 5
     },
     {
@@ -34,7 +34,7 @@ const teams = [
         teamName: "D-TROUP",
         gold: 4,
         silver: 2,
-        bronze: 1
+        bronze: 2
     }
 ];
 
