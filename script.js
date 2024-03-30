@@ -43,7 +43,18 @@ const calculateTotalPoints = ({ gold, silver, bronze }) => gold * 3 + silver * 2
 const sortedTeams = teams.map(team => ({
     ...team,
     total: calculateTotalPoints(team),
-})).sort((a, b) => b.total - a.total);
+})).sort((a, b) => {
+    if (b.total - a.total === 0) {
+        if (b.gold - a.gold === 0) {
+            if (b.silver - a.silver === 0) {
+                return b.bronze - a.bronze;
+            }
+            return b.silver - a.silver;
+        }
+        return b.gold - a.gold;
+    }
+    return b.total - a.total;
+});
 
 const generateTable = (tableData) => {
     tableContainer.innerHTML = tableData.map((team, index) => `
