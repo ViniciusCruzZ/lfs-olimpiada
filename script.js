@@ -5,13 +5,13 @@ const teams = [
         img: "./images/logo-tpc.png",
         teamName: "TPC",
         gold: 1,
-        silver: 5,
+        silver: 6,
         bronze: 2
     },
     {
         img: "./images/logo-primos.jpeg",
         teamName: "PRIMOS",
-        gold: 5,
+        gold: 6,
         silver: 3,
         bronze: 5
     },
