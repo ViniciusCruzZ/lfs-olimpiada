@@ -27,7 +27,7 @@ const teams = [
         teamName: "Hope's Peak",
         gold: 0,
         silver: 0,
-        bronze: 0
+        bronze: 1
     }, 
     {
         img: "./images/dtroup.jpeg",
