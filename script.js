@@ -4,7 +4,7 @@ const teams = [
     {
         img: "./images/logo-tpc.png",
         teamName: "TPC",
-        gold: 3,
+        gold: 4,
         silver: 7,
         bronze: 2
     },
@@ -12,8 +12,8 @@ const teams = [
         img: "./images/logo-primos.jpeg",
         teamName: "PRIMOS",
         gold: 6,
-        silver: 4,
-        bronze: 6
+        silver: 5,
+        bronze: 7
     },
     {
         img: "./images/lanche.jpeg",
