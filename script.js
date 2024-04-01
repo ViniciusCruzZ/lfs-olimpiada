@@ -11,7 +11,7 @@ const teams = [
     {
         img: "./images/logo-primos.jpeg",
         teamName: "PRIMOS",
-        gold: 6,
+        gold: 7,
         silver: 5,
         bronze: 7
     },
@@ -19,7 +19,7 @@ const teams = [
         img: "./images/lanche.jpeg",
         teamName: "Clube do Lanche",
         gold: 1,
-        silver: 1,
+        silver: 2,
         bronze: 0
     },
     {
